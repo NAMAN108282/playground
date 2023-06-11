@@ -1,7 +1,7 @@
 import sys
 
 def checkFile():
-    if len(sys.argv) < 1:
+    if len(sys.argv) < 2:
         print("File must be specified")
         return
 
